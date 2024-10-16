@@ -1,0 +1,97 @@
+.header {
+    background-color: #017848;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    padding: 21px 70px;
+    font: 400 16px Inter, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      padding: 0 20px;
+    }
+  }
+  
+  .headerContent {
+    display: flex;
+    width: 100%;
+    max-width: 1358px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 991px) {
+    .headerContent {
+      max-width: 100%;
+    }
+  }
+  
+  .navigationLinks {
+    display: flex;
+    align-items: center;
+    gap: 40px 46px;
+    white-space: nowrap;
+    text-align: center;
+    margin: auto 0;
+  }
+  
+  @media (max-width: 991px) {
+    .navigationLinks {
+      max-width: 100%;
+      white-space: initial;
+    }
+  }
+  
+  .logo {
+    aspect-ratio: 3.25;
+    object-fit: contain;
+    object-position: center;
+    width: 65px;
+    align-self: stretch;
+  }
+  
+  .navLink {
+    line-height: 2;
+    color: white; 
+    text-decoration: none;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .smallNavLink {
+    font-size: 15px;
+    color:"white";
+    line-height: 2;
+    text-decoration: none;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .userActions {
+    display: flex;
+    gap: 40px;
+    line-height: 2;
+  }
+  
+  .userIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 46px;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }

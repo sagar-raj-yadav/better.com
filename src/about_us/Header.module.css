@@ -1,0 +1,85 @@
+.header {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #292b29;
+    justify-content: center;
+    padding: 21px 70px;
+    font: 400 16px Inter, sans-serif;
+  }
+  
+  .headerContent {
+    display: flex;
+    width: 100%;
+    max-width: 1357px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .navigation {
+    display: flex;
+    align-items: center;
+    gap: 40px 45px;
+    white-space: nowrap;
+    text-align: center;
+    margin: auto 0;
+  }
+  
+  .logo {
+    aspect-ratio: 3.25;
+    object-fit: contain;
+    object-position: center;
+    width: 65px;
+    align-self: stretch;
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navLinks a {
+    text-decoration: none;
+    color: #292b29;
+  }
+  
+  .userActions {
+    display: flex;
+    gap: 40px;
+    line-height: 2;
+  }
+  
+  .userIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 46px;
+  }
+  
+  .signIn {
+    margin: auto 0;
+    text-decoration: none;
+    color: #292b29;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      max-width: 100%;
+      margin-right: 6px;
+      padding: 0 20px;
+    }
+  
+    .headerContent {
+      max-width: 100%;
+    }
+  
+    .navigation {
+      max-width: 100%;
+      white-space: initial;
+    }
+  }

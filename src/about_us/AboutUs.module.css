@@ -1,0 +1,13 @@
+.aboutUsContainer {
+    max-width: none !important;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 991px) {
+    .aboutUsContainer {
+      max-width: 100%;
+      margin-right: 6px;
+    }
+  }

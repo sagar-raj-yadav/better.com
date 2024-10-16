@@ -1,0 +1,84 @@
+.footer {
+    background-color: #fffdfb;
+    padding: 25px 80px;
+  }
+  
+  .footerContent {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  
+  .companyInfo {
+    max-width: 300px;
+  }
+  
+  .footerLogo {
+    width: 85px;
+    height: auto;
+  }
+  
+  .companyDescription {
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 30px;
+  }
+  
+  .footerNav {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .navColumn {
+    min-width: 150px;
+  }
+  
+  .navTitle {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 31px;
+  }
+  
+  .navList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navList li {
+    margin-bottom: 28px;
+  }
+  
+  .navList a {
+    color: #292b29;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 2;
+  }
+  
+  .legalText {
+    font-size: 11px;
+    line-height: 18px;
+    color: #292b29;
+    margin-top: 53px;
+  }
+  
+  @media (max-width: 991px) {
+    .footer {
+      padding: 25px 20px;
+    }
+  
+    .footerContent {
+      flex-direction: column;
+    }
+  
+    .footerNav {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    .navColumn {
+      min-width: 100%;
+    }
+  }

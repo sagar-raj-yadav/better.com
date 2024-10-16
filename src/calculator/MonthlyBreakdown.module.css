@@ -1,0 +1,90 @@
+.monthlyBreakdown {
+    background-color: #fffdfb;
+    padding: 83px 70px 8px;
+  }
+  
+  .title {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 41px;
+  }
+  
+  .totalPayment {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 2;
+    margin-bottom: 60px;
+  }
+  
+  .chart {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 60px;
+    /* Implement chart styles */
+  }
+  
+  .breakdownList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .breakdownItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .colorIndicator {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .green { background-color: #017848; }
+  .purple { background-color: #6e4cf6; }
+  .blue { background-color: #8e8eeb; }
+  .yellow { background-color: #ffd566; }
+  .orange { background-color: #fe8b72; }
+  
+  .label {
+    flex-grow: 1;
+    font-size: 16px;
+    line-height: 2;
+  }
+  
+  .amount {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: right;
+  }
+  
+  .copyButton {
+    background-color: #e8eae6;
+    border: none;
+    border-radius: 8px;
+    color: #292b29;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 25px 22px;
+    margin-top: 44px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 991px) {
+    .monthlyBreakdown {
+      padding: 40px 20px;
+    }
+  
+    .totalPayment {
+      font-size: 40px;
+      margin-bottom: 40px;
+    }
+  
+    .copyButton {
+      margin-top: 40px;
+      padding: 20px;
+    }
+  }

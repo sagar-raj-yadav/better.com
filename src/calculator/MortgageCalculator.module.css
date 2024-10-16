@@ -1,0 +1,41 @@
+.mortgageCalculator {
+    font-family: Inter, sans-serif;
+    color: #292b29;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  
+  .mainContent {
+    padding: 80px;
+  }
+  
+  .calculatorSection {
+    background-color: #f0f7f1;
+    padding: 78px 80px;
+  }
+  
+  .title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -2px;
+    margin-bottom: 32px;
+  }
+  
+  .description {
+    font-size: 15px;
+    line-height: 24px;
+    color: #565d5a;
+    margin-bottom: 50px;
+  }
+  
+  @media (max-width: 991px) {
+    .mainContent,
+    .calculatorSection {
+      padding: 40px 20px;
+    }
+  
+    .title {
+      font-size: 40px;
+    }
+  }

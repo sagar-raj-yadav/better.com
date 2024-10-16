@@ -1,0 +1,141 @@
+.footer {
+    background-color: #fffdfA;
+    display: flex;
+    margin-top: 46px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 80px;
+  }
+  
+  .footerContent {
+    display: flex;
+    width: 100%;
+    max-width: 1600px;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .footerMain {
+    align-self: stretch;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .footerLogo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo {
+    aspect-ratio: 2.43;
+    object-fit: contain;
+    object-position: center;
+    width: 85px;
+  }
+  
+  .logoDescription {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 2;
+    color: #292b29;
+  }
+  
+  .footerLinks,
+  .footerCompany,
+  .footerContact {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footerLinksTitle,
+  .footerCompanyTitle,
+  .footerContactTitle,
+  .footerLegalTitle {
+    color: #292b29;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 30px;
+  }
+  
+  .footerNav ul,
+  .footerLegalNav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footerNav ul li,
+  .footerLegalNav ul li {
+    margin-bottom: 25px;
+  }
+  
+  .footerNav ul li a,
+  .footerLegalNav ul li a {
+    color: #222;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 2;
+  }
+  
+  .contactEmail,
+  .contactPhone {
+    color: #000;
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 25px;
+  }
+  
+  .equalHousingLogo {
+    aspect-ratio: 7.14;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    align-self: stretch;
+    margin-top: 39px;
+  }
+  
+  .footerSocial {
+    display: flex;
+    margin-top: 240px;
+    gap: 16px;
+  }
+  
+  .socialIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+  }
+  
+  .footerLegal {
+    color: #292b29;
+    font-size: 11px;
+    line-height: 18px;
+    margin-top: 52px;
+  }
+  
+  @media (max-width: 991px) {
+    .footer {
+      max-width: 100%;
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  
+    .footerContent,
+    .footerMain {
+      max-width: 100%;
+    }
+  
+    .footerSocial {
+      margin-top: 40px;
+    }
+  
+    .footerLegal {
+      max-width: 100%;
+      margin: 40px 10px 0 0;
+    }
+  }

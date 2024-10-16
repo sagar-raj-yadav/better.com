@@ -1,0 +1,33 @@
+.backedBySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 119px;
+  }
+  
+  .backedByTitle {
+    color: #292b29;
+    letter-spacing: -1px;
+    text-align: center;
+    font: 700 30px/1 Inter, sans-serif;
+  }
+  
+  .backedByImage {
+    aspect-ratio: 15.87;
+    object-fit: contain;
+    object-position: center;
+    width: 1440px;
+    margin-top: 83px;
+    max-width: 1440px;
+  }
+  
+  @media (max-width: 991px) {
+    .backedBySection {
+      margin-top: 40px;
+    }
+  
+    .backedByImage {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }

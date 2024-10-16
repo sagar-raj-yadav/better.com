@@ -1,0 +1,131 @@
+.missionSection {
+    background-color: #fffdfA;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 485px 0 104px;
+  }
+  
+  .missionTitle {
+    color: #017848;
+    letter-spacing: -1px;
+    text-align: center;
+    font: 700 30px/1 Inter, sans-serif;
+  }
+  
+  .missionStatement {
+    color: #292b29;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-top: 50px;
+    font: 700 45px/58px Inter, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .missionContent {
+    margin-top: 491px;
+    width: 1040px;
+    max-width: 100%;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .missionText {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font: 700 15px Inter, sans-serif;
+  }
+  
+  .statusQuoTitle {
+    color: #292b29;
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+  
+  .statusQuoDescription {
+    color: #565d5a;
+    font-weight: 400;
+    line-height: 24px;
+    align-self: stretch;
+    margin-top: 33px;
+  }
+  
+  .storyLink {
+    border-radius: 8px;
+    background-color: #017848;
+    margin-top: 35px;
+    color: #fff;
+    text-align: center;
+    line-height: 2;
+    padding: 25px 41px;
+    text-decoration: none;
+  }
+  
+  .missionImage {
+    position: relative;
+    min-height: 400px;
+    flex-grow: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 160px 80px;
+  }
+  
+  .backgroundImage {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .iconImage {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 80px;
+    margin-left: 17px;
+    z-index: 1;
+  }
+  
+  @media (max-width: 991px) {
+    .missionSection {
+      max-width: 100%;
+      margin-right: 6px;
+      padding: 100px 0;
+    }
+  
+    .missionStatement {
+      max-width: 100%;
+      margin-top: 40px;
+      font-size: 40px;
+      line-height: 57px;
+    }
+  
+    .missionContent {
+      margin-top: 40px;
+      flex-direction: column;
+    }
+  
+    .missionText {
+      max-width: 100%;
+    }
+  
+    .statusQuoDescription {
+      max-width: 100%;
+    }
+  
+    .storyLink {
+      padding: 0 20px;
+    }
+  
+    .missionImage {
+      max-width: 100%;
+      margin-top: 40px;
+      padding: 100px 20px;
+    }
+  }

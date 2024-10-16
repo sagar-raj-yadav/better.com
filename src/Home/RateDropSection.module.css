@@ -1,0 +1,279 @@
+.rateDropSection {
+    background-color: #fffdfa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 51px;
+  }
+  
+  .contentWrapper {
+    background-color: #004733;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 41px 80px 0;
+  }
+  
+  @media (max-width: 991px) {
+    .contentWrapper {
+      padding: 0 20px;
+    }
+  }
+  
+  .alertContainer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #fffdfa;
+    font: 400 31px/2 Inter, sans-serif;
+  }
+  
+  .alertIcon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .alertText {
+    flex-grow: 1;
+  }
+  
+  .mainHeading {
+    color: #fffdfa;
+    font: 700 110px/118px Inter, -apple-system, Roboto, Helvetica, sans-serif;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-top: 62px;
+    z-index: 10;
+  }
+  
+  @media (max-width: 991px) {
+    .mainHeading {
+      font-size: 40px;
+      line-height: 48px;
+      margin-top: 40px;
+    }
+  }
+  
+  .formContainer {
+    display: flex;
+    width: 100%;
+    max-width: 1060px;
+    justify-content: space-between;
+    margin-top: -77px;
+  }
+  
+  .approvalForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Inter, sans-serif;
+  }
+  
+  .submitButton {
+    border-radius: 9999px;
+    background-color: #1ee07f;
+    color: #292b29;
+    font: 700 15px/2 Inter, sans-serif;
+    padding: 25px 48px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 991px) {
+    .submitButton {
+      padding: 0 20px;
+    }
+  }
+  
+  .formInfo {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-top: 13px;
+    color: #dfe0dc;
+    font: 400 14px Inter, sans-serif;
+  }
+  
+  .timeEstimate {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .clockIcon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .approvalImage {
+    width: 100%;
+    max-width: 450px;
+    margin-top: 24px;
+  }
+  
+  .ratingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: auto;
+  }
+  
+  .starRating {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .starIcon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .ratingText {
+    color: #e8eae6;
+    font: 400 11px/2 Inter, sans-serif;
+    margin-top: 6px;
+  }
+  
+  .productHighlight {
+    display: flex;
+    width: 100%;
+    max-width: 1187px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 145px;
+    font: 700 15px Inter, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .productHighlight {
+      flex-direction: column;
+      margin-top: 40px;
+    }
+  }
+  
+  .testimonialSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testimonialImage {
+    width: 100%;
+    max-width: 265px;
+  }
+  
+  .testimonialButtons {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+  }
+  
+  .testimonialButton {
+    border-radius: 9999px;
+    background-color: transparent;
+    color: #017848;
+    padding: 18px 25px;
+    border: 1px solid #017848;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 991px) {
+    .testimonialButton {
+      padding: 0 20px;
+    }
+  }
+  
+  .callToAction {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .ctaHeading {
+    color: #292b29;
+    font-size: 83px;
+    line-height: 88px;
+    letter-spacing: -2px;
+  }
+  
+  @media (max-width: 991px) {
+    .ctaHeading {
+      font-size: 40px;
+      line-height: 47px;
+    }
+  }
+  
+  .ctaLink {
+    border-radius: 9999px;
+    background-color: #004733;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 27px 48px;
+    margin-top: 37px;
+  }
+  
+  @media (max-width: 991px) {
+    .ctaLink {
+      padding: 0 20px;
+    }
+  }
+  
+  .trustpilot {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+    color: #565d5a;
+    font-size: 14px;
+  }
+  
+  .trustpilotLogo {
+    width: 90px;
+  }
+  
+  .questionSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1360px;
+    margin-top: 210px;
+    font-family: Inter, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .questionSection {
+      flex-direction: column;
+      margin-top: 40px;
+    }
+  }
+  
+  .questionHeading {
+    color: #292b29;
+    font-size: 44px;
+    line-height: 58px;
+    letter-spacing: -1px;
+  }
+  
+  .topicButtons {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  
+  .topicButton {
+    border-radius: 9999px;
+    background-color: transparent;
+    color: #017848;
+    font-size: 15px;
+    padding: 17px 26px;
+    border: 1px solid #017848;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 991px) {
+    .topicButton {
+      padding: 0 20px;
+    }
+  }
